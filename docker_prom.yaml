@@ -17,7 +17,7 @@ sudo chown node_exporter:node_exporter /etc/node_exporter
 
 Install exporter
 ====================
-sudo chown node_exporter:node_exporter /opt/node-exporter/node_exporter
+sudo chown -R node_exporter:node_exporter /opt/node-exporter
 
 create exporter service
 ==========================
